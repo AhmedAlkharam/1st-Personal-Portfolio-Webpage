@@ -1,0 +1,295 @@
+/* Main start rules */
+
+body {
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+.clearfix {
+    clear: both
+}
+
+
+/* End start reules */
+.active {
+    color: #AAA;
+}
+
+/* Move nav */
+
+.mv-nav {
+    padding: 10px;
+    background: rgba(75, 85, 87, .7);
+    display: inline-block;
+    position: fixed;
+    z-index: 9999;
+    right: 5px;
+    top: 5em;
+    border-radius: 8px;
+    display: none
+}
+
+.mv-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mv-nav ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.mv-nav ul li span {
+}
+
+.mv-nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+/* End Move nav */
+
+
+/* Start Header */
+
+.header {
+    background-color: #EEE;
+    background-image: url('../night.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 680px;
+    padding-top: 200px;
+    text-align: center;
+    color: #fff
+}
+
+.header .overlay {
+    background-color: rgba(0, 0, 0, .6);
+    height: 680px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header h2 {
+    font-size: 50px;
+    padding: 5px 0;
+    margin-top: 100px;
+    font-family: monospace;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header span {
+    color: #e74c3c;
+}
+
+.header ul {
+    list-style: none;
+    margin-top: 300px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.header .links span {
+    margin: 0 15px;
+}
+
+.header ul li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.header .links-lg li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.header .links-xs li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.header ul li:hover {
+    border-bottom: 2px solid #e74c3c;
+}
+
+
+/* End Header */
+
+
+/* Start About me */
+
+.aboutme {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.aboutme h1 {
+    text-transform: uppercase;
+    color: #394246;
+    margin-top: 8px
+}
+
+.aboutme p {
+    padding-top: 7px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: #888
+}
+
+.aboutme img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%
+}
+
+.aboutme .ProgramLang .content .icon {
+    float: left;
+    width: 12%;
+}
+
+.aboutme .ProgramLang .content .icon img {
+    max-width: 100%;
+    margin: 16px -18px 0px
+}
+
+.aboutme .ProgramLang .content .text {
+    float: left;
+    width: 100%;
+    margin-top: 5px
+}
+
+.aboutme .ProgramLang .content .text .program {
+    margin-top: 12px
+}
+
+
+/* End About me */
+
+
+/* Start Protfolio */
+
+.protfolio {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center
+}
+
+.protfolio .my-work {
+    overflow: hidden
+}
+
+.protfolio .my-work > div {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.protfolio .my-work img {
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 12px #ccc/*CSS3*/
+}
+
+
+/* End Protfolio */
+
+
+/* Start Contact me */
+
+.contact {
+    background-color: #00080A;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contact h3 {
+    color: #FFF;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+.contact .form label {
+    display: block;
+    color: #d1d6da;
+    margin: 10px 0
+}
+
+.contact .form input[type="text"] {
+    background-color: #4b5557;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.contact .form textarea {
+    background-color: #4b5557;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 300px;
+    resize: none
+}
+
+.contact .form input[type="submit"] {
+    background-color: #191e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+/* End Contact me */
+
+
+/* Start Footer */
+
+.footer {
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0
+}
+
+.footer ul li {
+    display: inline-block
+}
+
+.footer ul li img {
+    width: 24px
+}
+
+
+/* End Footer */

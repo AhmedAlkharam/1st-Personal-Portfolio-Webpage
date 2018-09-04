@@ -1,2 +1,2 @@
-# 1st-Personal-Portfolio-Webpage
-My first Personal Portfolio Web page
+# Build-a-Personal-Portfolio-Webpage
+Second Project on FreeCodeCamp
